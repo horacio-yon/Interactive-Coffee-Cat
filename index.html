@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Purr & Brew — Stay curious, stay caffeinated.</title>
+  <meta name="description" content="Freshly brewed happiness, served with a little purr.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/cat/cat-center.png" as="image">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/cat-controller.js"></script>
+  <script defer src="js/app.js"></script>
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Purr and Brew home">
+        <span class="brand-icon">●</span>
+        <span>
+          PURR
+          <em>&</em>
+          BREW
+          <small>COFFEE HOUSE</small>
+        </span>
+      </a>
+      <button class="button button-gold header-order" data-panel="order">
+        Order Coffee
+        <span>↗</span>
+      </button>
+    </header>
+    <main id="home" class="hero">
+      <section class="hero-copy">
+        <div class="eyebrow">
+          <span></span>
+          YOUR DAILY DOSE OF COZY ✳
+        </div>
+        <h1>
+          Life is better,
+          <br>
+          with <em>coffee & purrs.</em>
+        </h1>
+        <p>Freshly brewed happiness, served with a little purr.</p>
+        <div class="hero-actions">
+          <button class="button button-gold button-large" data-panel="order">
+            Order Now
+            <span>↗</span>
+          </button>
+          <button class="button button-outline button-large" data-panel="menu">
+            Explore Menu
+            <span>→</span>
+          </button>
+        </div>
+        <div class="hero-proof">
+          <span>★★★★★</span>
+          <strong>4.9 / 5</strong>
+          <i></i>
+          Loved by coffee people
+          &
+          cat people.
+        </div>
+      </section>
+      <section class="hero-visual" aria-label="Interactive coffee cat">
+        <div class="orbit orbit-one">
+        </div>
+        <div class="orbit orbit-two">
+        </div>
+        <div class="cat-halo">
+        </div>
+        <span class="spark spark-one">✳</span>
+        <span class="spark spark-two">✳</span>
+        <div class="cat-wrap">
+          <img id="cat-image" src="assets/cat/cat-center.png" alt="A fluffy orange cat holding coffee" width="1254"
+            height="1254" fetchpriority="high" draggable="false">
+        </div>
+        <div class="cat-shadow">
+        </div>
+        <div class="cat-caption">
+          <i></i>
+          <span id="cat-status">Say hello to your new coffee buddy</span>
+        </div>
+      </section>
+      <aside class="product-rail" aria-label="Featured coffee">
+        <div class="rail-heading">
+          <span>THE GOOD STUFF</span>
+          <i></i>
+          <span>01 / 02</span>
+        </div>
+        <button class="product-card" data-panel="order" data-product="espresso">
+          <span class="product-image">
+            <img src="assets/coffee/espresso.png" alt="Espresso in a cream cup" width="1536" height="1024">
+          </span>
+          <span class="product-info">
+            <small>
+              BOLD
+              &
+              BEAUTIFUL
+            </small>
+            <strong>Espresso</strong>
+            <span>Small cup. Big energy.</span>
+            <b>$4.50</b>
+          </span>
+          <span class="product-arrow">↗</span>
+        </button>
+        <button class="product-card" data-panel="order" data-product="cappuccino">
+          <span class="product-image">
+            <img src="assets/coffee/cappuccino.png" alt="Cappuccino with heart latte art" width="1536" height="1024">
+          </span>
+          <span class="product-info">
+            <small>
+              SOFT
+              &
+              SILKY
+            </small>
+            <strong>Cappuccino</strong>
+            <span>A hug in every sip.</span>
+            <b>$5.50</b>
+          </span>
+          <span class="product-arrow">↗</span>
+        </button>
+        <div class="rail-note">
+          ✳
+          &nbsp;
+          Made with love, served with purrs.
+        </div>
+      </aside>
+    </main>
+    <footer class="site-footer">
+      <span>GOOD COFFEE. GOOD COMPANY. ALWAYS.</span>
+      <span class="creator-signature">Crafted with <span class="signature-heart">♥</span> by <strong>Codea con
+          Horacio</strong></span>
+    </footer>
+  </div>
+  <dialog id="info-dialog">
+    <button class="dialog-close" aria-label="Close dialog">×</button>
+    <div id="dialog-content">
+    </div>
+  </dialog>
+</body>
+
+</html>
