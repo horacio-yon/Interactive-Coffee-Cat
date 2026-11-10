@@ -32,6 +32,3 @@ Replace the PNG files in `assets/cat/` using the same filenames and square 1254 
 These are generated 2D images of a 3D-styled character, not a rigged 3D model. The cup lift is a short pose transition, so it cannot show every intermediate movement continuously. The generated images remain closely aligned but have slight differences in fur and head contours. A frame sequence or real 3D rig would be needed for a perfectly continuous sip.
 
 The fonts are fetched from Google Fonts; local sans-serif fonts are used if they are unavailable.
-
-
-Desktop capture: [preview-desktop.png](preview-desktop.png).
